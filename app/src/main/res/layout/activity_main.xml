@@ -11,10 +11,17 @@
     android:orientation="vertical"
     >
 
+
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese un usuario 1"
-        />
+        android:hint="Ingrese un usuario 1"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese contraseña:"
+        android:inputType="numberPassword"/>
+
 
 </LinearLayout>
