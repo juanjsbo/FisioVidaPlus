@@ -15,13 +15,15 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="Ingrese un usuario 1"/>
+        android:hint="Ingrese un usuario:"
+        android:gravity="center_horizontal"/>
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese contraseña:"
-        android:inputType="numberPassword"/>
+        android:inputType="numberPassword"
+        android:gravity="center_horizontal"/>
 
 
 </LinearLayout>
