@@ -7,10 +7,14 @@
         <item name="android:colorPrimaryDark">@color/primary_dark</item>
         <item name="android:colorAccent">@color/accent</item>
         <item name="android:navigationBarColor">@color/primary</item>
+        <item name="android:toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+        <item name="android:textColorPrimary">@color/title_text</item>
     </style>
     
     <color name="primary">#AD1457</color>
     <color name="primary_dark">#880E4F</color>
     <color name="accent">#4DD0E1</color>
+    <color name="title_text">#FFFFFF</color>
+
 
 </resources>
