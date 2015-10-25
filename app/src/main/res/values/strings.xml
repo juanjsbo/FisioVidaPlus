@@ -8,4 +8,6 @@
     <string name="action_exit">Salir</string>
     <string name="user_name">Usuario</string>
     <string name="password">Contraseña</string>
+    <string name="title_actvity_splash">Splash_</string>
+
 </resources>
