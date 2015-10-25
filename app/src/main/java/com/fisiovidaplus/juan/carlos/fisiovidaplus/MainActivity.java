@@ -26,23 +26,18 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar=(Toolbar) findViewById(id.toolbar);
         toolbar.setTitle(string.app_name);
-        toolbar.setTitleTextColor(getResources().getColor(title_text));
+        toolbar.setTitleTextColor(getResources().getColor(color.title_text));
         toolbar.setLogo(drawable.medical_heart);
 
         if(toolbar!=null){
             setSupportActionBar(toolbar);
         }
-        /*if(android.os.Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
+        if(android.os.Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
             Window window=getWindow();
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            window.setStatusBarColor(getResources().getColor(R.color.primary_dark,null));
+            window.setStatusBarColor(getResources().getColor(R.color.primary_dark));
 
-        }*/
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(Color.BLUE);
         }
 
     }
